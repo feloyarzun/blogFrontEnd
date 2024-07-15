@@ -1,0 +1,51 @@
+.btn {
+  border: 1px solid $black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+
+  &--wide {
+    width: 100%;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &--subscribe {
+    margin-bottom: -10rem;
+    padding: 1rem 3rem;
+    background-color: $background-post;
+  }
+
+  &__google {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   
+  }
+
+  &__inicio {
+    margin: 2px;
+    padding: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+  }
+
+  &__login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: $greenlighter;
+    color: white;
+  }
+
+ 
+
+}
